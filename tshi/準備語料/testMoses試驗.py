@@ -1,5 +1,7 @@
 from unittest.case import TestCase
 
+from sit.tsunpi import 準備語料
+
 
 from 臺灣言語工具.解析整理.拆文分析器 import 拆文分析器
 

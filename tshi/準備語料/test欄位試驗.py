@@ -1,5 +1,7 @@
 from unittest.case import TestCase, skip
 
+from sit.tsunpi import 準備語料
+
 
 @skip('先規劃，上尾來檢查')
 class 欄位試驗(TestCase):
