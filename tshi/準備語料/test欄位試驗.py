@@ -5,7 +5,7 @@ from unittest.case import TestCase, skip
 class 欄位試驗(TestCase):
     @classmethod
     def setUpClass(cls):
-        self.語料 = 準備語料().詞性句法('我愛豬仔。', 'gua2 ai3 ti1-a2')
+        cls.語料 = 準備語料().詞性句法('我愛豬仔。', 'gua2 ai3 ti1-a2.')
 
     def test_有原本資料(self):
         self.assertIn('漢字', self.語料)
